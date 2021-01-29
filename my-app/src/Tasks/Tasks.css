@@ -1,0 +1,38 @@
+@media only screen and (min-width: 800px) {
+  /* CSS for tasklist section */
+  .inputBox {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+  }
+  .enterTitle {
+    margin-right: 1%;
+    color: #ff9f00;
+    font-family: "Zilla Slab", serif;
+    font-size: 20px;
+  }
+  button {
+    border-radius: 2px;
+    margin-left: 1%;
+  }
+  input {
+    height: 30%;
+  }
+  .taskList {
+    font-size: 30px;
+    width: 40%;
+    color: #ff9f00;
+    font-family: "Zilla Slab", serif;
+  }
+  .taskList:hover {
+    text-decoration: line-through;
+    text-decoration-thickness: 10%;
+  }
+  .noTasks {
+    font-size: 40px;
+    color: #ff9f00;
+    margin-top: 15%;
+    text-align: center;
+    font-family: "Zilla Slab", serif;
+  }
+}
